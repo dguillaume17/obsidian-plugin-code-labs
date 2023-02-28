@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { App, Plugin, PluginManifest } from 'obsidian';
 import { CodeLabsSettingTab } from './code-labs.setting-tab';
 import { SettingValues } from './setting-values.interface';
