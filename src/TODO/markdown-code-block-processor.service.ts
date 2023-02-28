@@ -1,13 +1,13 @@
 import { MarkdownRenderer } from 'obsidian';
 import { from, lastValueFrom, Observable } from 'rxjs';
-import CodeLabsPlugin from '../main';
+import CodeLabs from '../code-labs.plugin';
 
 export class MarkdownCodeBlockProcessorService {
 
     // Lifecycle
 
     constructor(
-        private _codeLabsPlugin: CodeLabsPlugin,
+        private _codeLabsPlugin: CodeLabs,
         private _el: HTMLElement
     ) {}
 

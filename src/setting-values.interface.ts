@@ -1,4 +1,4 @@
-export interface SettingsObject {
+export interface SettingValues {
     delay: number;
 	gitCommand: string;
 }
